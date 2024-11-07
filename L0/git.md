@@ -5,4 +5,4 @@
 PR链接：https://github.com/InternLM/Tutorial/pull/2426
 
 # 任务2：笔记仓库
-![image](image\1730949325222.jpg)
+![image](image/1730949325222.jpg)
