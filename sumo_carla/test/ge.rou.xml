@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-11-17 20:34:00 by Eclipse SUMO duarouter Version 1.21.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="test.net.xml"/>
+        <route-files value="test.trip.xml"/>
+    </input>
+
+    <output>
+        <output-file value="ge.rou.xml"/>
+        <human-readable-time value="true"/>
+    </output>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="type0" length="7.00" minGap="1.50" speedFactor="norm(0.80,0.10)" color="red" carFollowModel="Krauss"/>
+    <vehicle id="flow0.0" type="type0" depart="00:00:00">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vType id="type1" length="4.00" minGap="3.00" speedFactor="norm(1.00,0.00)" color="yellow" carFollowModel="BKerner"/>
+    <vehicle id="flow1.0" type="type1" depart="00:00:00">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.1" type="type0" depart="00:00:12">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.1" type="type1" depart="00:00:12">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.2" type="type0" depart="00:00:24">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.2" type="type1" depart="00:00:24">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.3" type="type0" depart="00:00:36">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.3" type="type1" depart="00:00:36">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.4" type="type0" depart="00:00:48">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.4" type="type1" depart="00:00:48">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.5" type="type0" depart="00:01:00">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.5" type="type1" depart="00:01:00">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.6" type="type0" depart="00:01:12">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.6" type="type1" depart="00:01:12">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.7" type="type0" depart="00:01:24">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.7" type="type1" depart="00:01:24">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.8" type="type0" depart="00:01:36">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.8" type="type1" depart="00:01:36">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.9" type="type0" depart="00:01:48">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.9" type="type1" depart="00:01:48">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.10" type="type0" depart="00:02:00">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.10" type="type1" depart="00:02:00">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.11" type="type0" depart="00:02:12">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.11" type="type1" depart="00:02:12">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.12" type="type0" depart="00:02:24">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.12" type="type1" depart="00:02:24">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.13" type="type0" depart="00:02:36">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.13" type="type1" depart="00:02:36">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.14" type="type0" depart="00:02:48">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.14" type="type1" depart="00:02:48">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.15" type="type0" depart="00:03:00">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.15" type="type1" depart="00:03:00">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.16" type="type0" depart="00:03:12">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.16" type="type1" depart="00:03:12">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.17" type="type0" depart="00:03:24">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.17" type="type1" depart="00:03:24">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.18" type="type0" depart="00:03:36">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.18" type="type1" depart="00:03:36">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.19" type="type0" depart="00:03:48">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.19" type="type1" depart="00:03:48">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.20" type="type0" depart="00:04:00">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.20" type="type1" depart="00:04:00">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.21" type="type0" depart="00:04:12">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.21" type="type1" depart="00:04:12">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.22" type="type0" depart="00:04:24">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.22" type="type1" depart="00:04:24">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.23" type="type0" depart="00:04:36">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.23" type="type1" depart="00:04:36">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.24" type="type0" depart="00:04:48">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.24" type="type1" depart="00:04:48">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.25" type="type0" depart="00:05:00">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.25" type="type1" depart="00:05:00">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.26" type="type0" depart="00:05:12">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.26" type="type1" depart="00:05:12">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.27" type="type0" depart="00:05:24">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.27" type="type1" depart="00:05:24">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.28" type="type0" depart="00:05:36">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.28" type="type1" depart="00:05:36">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.29" type="type0" depart="00:05:48">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.29" type="type1" depart="00:05:48">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.30" type="type0" depart="00:06:00">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.30" type="type1" depart="00:06:00">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.31" type="type0" depart="00:06:12">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.31" type="type1" depart="00:06:12">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.32" type="type0" depart="00:06:24">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.32" type="type1" depart="00:06:24">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.33" type="type0" depart="00:06:36">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.33" type="type1" depart="00:06:36">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.34" type="type0" depart="00:06:48">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.34" type="type1" depart="00:06:48">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.35" type="type0" depart="00:07:00">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.35" type="type1" depart="00:07:00">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.36" type="type0" depart="00:07:12">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.36" type="type1" depart="00:07:12">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.37" type="type0" depart="00:07:24">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.37" type="type1" depart="00:07:24">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.38" type="type0" depart="00:07:36">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.38" type="type1" depart="00:07:36">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.39" type="type0" depart="00:07:48">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.39" type="type1" depart="00:07:48">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.40" type="type0" depart="00:08:00">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.40" type="type1" depart="00:08:00">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.41" type="type0" depart="00:08:12">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.41" type="type1" depart="00:08:12">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.42" type="type0" depart="00:08:24">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.42" type="type1" depart="00:08:24">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.43" type="type0" depart="00:08:36">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.43" type="type1" depart="00:08:36">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.44" type="type0" depart="00:08:48">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.44" type="type1" depart="00:08:48">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.45" type="type0" depart="00:09:00">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.45" type="type1" depart="00:09:00">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.46" type="type0" depart="00:09:12">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.46" type="type1" depart="00:09:12">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.47" type="type0" depart="00:09:24">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.47" type="type1" depart="00:09:24">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.48" type="type0" depart="00:09:36">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.48" type="type1" depart="00:09:36">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow0.49" type="type0" depart="00:09:48">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+    <vehicle id="flow1.49" type="type1" depart="00:09:48">
+        <route edges="E0 E1 E6"/>
+    </vehicle>
+</routes>
