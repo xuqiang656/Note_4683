@@ -16,7 +16,7 @@ from    |  出发边                    |to|  到达边
     <trip id="trip2" depart="20" from="1fi" to="4o"/>
 </routes> 
 ```
-最后使用`duarouter --route-files=hello.trip.xml --net-file=../hello.net.xml --output-file=hello.rou.xml`转换为rou.xml文件
+最后使用`duarouter --route-files=test.trip.xml --net-file=test.net.xml --output-file=test.rou.xml`转换为rou.xml文件
 
 ## 2.使用flow文件生成车流
 
