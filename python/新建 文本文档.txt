@@ -1,0 +1,1 @@
+ffplay -i rtsp://192.168.144.25:8554/main.264 -rtsp_transport tcp -flags low_delay

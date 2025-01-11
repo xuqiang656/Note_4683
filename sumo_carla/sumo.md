@@ -111,6 +111,46 @@ laneChangeModel|  车道变换模型                   |carFollowModel |  车辆
 boardingDuration|  行人登车时间                   |carFollowModel |  车辆跟随模型
 
 
+## 5.xml to xodr
+netconvert -s test.net.xml --opendrive-output test.xodr
+具体信息:<https://sumo.dlr.de/docs/netconvert.html>
 
+## 6.利用traci进行仿真
 
+```python
+if 'SUMO_HOME' in os.environ:
+    tools = os.path.join(os.environ['SUMO_HOME'], 'tools')
+    sys.path.append(tools)
+else:
+    sys.exit("please declare environment variable 'SUMO_HOME'") 
+
+#是否使用gui界面
+def get_options():
+    optParser = optparse.OptionParser()
+    optParser.add_option("--nogui", action="store_true",
+                         default=False, help="run the commandline version of sumo")
+    options, args = optParser.parse_args()
+    return options
+
+#主函数
+if __name__ == "__main__":
+    options = get_options()
+    if options.nogui:
+        sumoBinary = sumolib.checkBinary('sumo')
+    else:
+        sumoBinary = sumolib.checkBinary('sumo-gui')
+    
+    sumocfgfile = "C:/Users/32894/Desktop/课程作业/carlawork/sumo/test.sumocfg" #sumocfg文件的位置
+    traci.start([sumoBinary, "-c", sumocfgfile]) #打开sumocfg文件
+    
+    for step in range(0,6000): #仿真总步长 =  仿真时间/一个仿真步长（step的value）
+        traci.simulationStep() #一步一步（一帧一帧）进行仿真，为sumocfg中step的value的值
+        #time.sleep(0.1)
+        simulation_time = traci.simulation.getTime() #获得仿真时间
+        print("仿真时间是",simulation_time)
+        all_vehicle_id = traci.vehicle.getIDList() #获得所有车的id
+        #获取所有车的position
+        all_vehicle_position = [(i, traci.vehicle.getPosition(i)) for i in all_vehicle_id]
+    traci.close()
+```
 
