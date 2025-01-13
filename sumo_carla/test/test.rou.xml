@@ -1,6 +1,6 @@
 <routes>
-    <vType id="type0" minGap="1.5" color="1,0,0" carFollowModel="Krauss" length="7" speedFactor="norm(0.8,0.1)"  />
-    <vType id="type1" minGap="3" color="1,1,0" carFollowModel="BKerner" length="4" speedFactor="norm(1,0)"/>
+    <vType id="type0" minGap="1" color="1,0,0" carFollowModel="Krauss" length="7" speedFactor="norm(0.2,0.1)"  />
+    <vType id="type1" minGap="3" color="1,1,0" carFollowModel="BKerner" length="4" speedFactor="norm(0.2,0)"/>
     <route id="route0" edges="E0 E1 E6" />
     <flow id="flow0" type="type0" begin="0" end="600"  period="1" route="route0" departLane="0" />
     <flow id="flow1" type="type1" begin="0" end="600"  period="1" route="route0"  departLane="1"/>
