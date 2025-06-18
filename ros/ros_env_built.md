@@ -50,6 +50,8 @@ mkdir src
 ### 6.vscode
 1.官网下载.deb格式的安装包
 2.进入对应位置的终端 ```sudo dpkg -i code_(Tab补全)```
+3.code 打开
+4.安装名为ros 的插件，cmaketools，
 
 ### 6.terminator
 sudo apt install terminator
