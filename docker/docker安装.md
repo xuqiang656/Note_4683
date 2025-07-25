@@ -41,7 +41,7 @@ sudo systemctl enable docker #使得docker服务在开机时自启动
 sudo docker version #检查docker版本
 ```
 #### 4. 测试docker
-
+* 主要是为了在/etc/docker/daemon.json中加入EOF之间的内容，如果docker info没看到修改结果，可以手动去目录中查看，手动创建文件并添加
 ```bash
 sudo docker run hello-world
 	#失败时进行docker换源
@@ -67,7 +67,7 @@ sudo docker run hello-world
 #### 5.安装docker-compose
 
 ```bash
-##安装2.6.1版本
+##安装2.6.1版本，如安装缓慢，可以先设置6的全局代理
 sudo curl -L "https://github.com/docker/compose/releases/download/v2.6.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose 
   
 sudo chmod +x /usr/local/bin/docker-compose #权限
